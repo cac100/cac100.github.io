@@ -2,3 +2,12 @@ body {
     cursor: url(../media/favicon_io2/crosshair.ico), grab;
 
 }
+
+#hero {
+    height: 100vh; /*full viewport height*/
+    display:flex;
+    align-items: center;
+    text-align: center;
+    color: #ba6d6d;
+    max-width: 800px;
+}
