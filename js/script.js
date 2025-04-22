@@ -32,3 +32,8 @@ const Hiphop = document.querySelector("#Hiphop");
 Hiphop.onclick = function () {
     alert("You selected Hiphop!")
     }
+
+const Acro = document.querySelector("#Acro");
+Acro.onclick = function () {
+    alert("You selected Acro!")
+    }
