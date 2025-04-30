@@ -1,7 +1,6 @@
 body {
     background-color: #F2F2F2;
     color: #A66D60;
-    cursor: url(../media/favicon_io2/crosshair.ico), grab;
 }
 
 nav {
@@ -16,7 +15,7 @@ nav {
 nav a {
     color: #F2F2F2;
     text-align: center;
-    padding: 20px 22px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -29,13 +28,4 @@ nav a:hover {
 }
 nav a:visited {
     color: white;
-}
-
-#hero {
-    height: 100vh; /*full viewport height*/
-    display:flex;
-    align-items: center;
-    text-align: center;
-    color: #ba6d6d;
-    max-width: 800px;
 }
