@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background-color:#F2F2F2;
     color: #A66D60;
     cursor: url(../media/favicon_io2/crosshair.ico), grab;
@@ -77,6 +78,7 @@ nav a:visited {
 #socials {
     text-decoration: none;
     align-content: center;
+    color: #555555;
 }
 
 #insta {
@@ -91,10 +93,10 @@ nav a:visited {
 
 #bhours {
     list-style-type: none;
-    color: #593027;
+    color: #BF9484;
+    align-content: center; 
     text-align: center;
-    padding: 0;
-    margin: 0;
+    margin-right: 50px;
 }
 
 #ballet3 {
@@ -108,6 +110,11 @@ nav a:visited {
 }
 
 #ballet5 {
+    height: 356px;
+    width: 474px;
+}
+
+#lobby {
     height: 356px;
     width: 474px;
 }
