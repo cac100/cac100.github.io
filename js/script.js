@@ -37,3 +37,7 @@ const Acro = document.querySelector("#Acro");
 Acro.onclick = function () {
     alert("You selected Acro!")
     }
+
+city.oninput = function(){
+        heading.innerText = "I love " + city.value;
+    }
