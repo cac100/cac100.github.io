@@ -38,6 +38,6 @@ Acro.onclick = function () {
     alert("You selected Acro!")
     }
 
-city.oninput = function(){
-        heading.innerText = "I love " + city.value;
-    }
+    fullname.oninput = function(){
+        heading.innerText = "Welcome to GDS " + fullname.value;
+    };
