@@ -1,7 +1,16 @@
-const Ballet = document.querySelector("#Ballet");
-Ballet.onclick = function () {
-    alert("You selected Ballet!")
-    }
+
+
+fullname.oninput = function(){
+        heading.innerText = "Welcome to GDS " + fullname.value;
+    };
+
+    Ballet.onclick = function () {
+        if (heading.innerHTML === "Welcome to GDS Elainea") {
+            alert ("Ballet was clicked and your name is Elainea");
+        } else {
+            alert ("Ballet was clicked!");
+        }
+    };
 
 const Modern = document.querySelector("#Modern");
 Modern.onclick = function () {
@@ -38,6 +47,5 @@ Acro.onclick = function () {
     alert("You selected Acro!")
     }
 
-    fullname.oninput = function(){
-        heading.innerText = "Welcome to GDS " + fullname.value;
-    };
+
+
