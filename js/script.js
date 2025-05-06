@@ -1,4 +1,6 @@
-
+const fullname = document.querySelector("#fullname");
+const heading = document.querySelector("#heading");
+const Ballet = document.querySelector("#Ballet");
 
 fullname.oninput = function(){
         heading.innerText = "Welcome to GDS " + fullname.value;
