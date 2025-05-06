@@ -5,8 +5,8 @@ fullname.oninput = function(){
     };
 
     Ballet.onclick = function () {
-        if (heading.innerHTML === "Welcome to GDS Elainea") {
-            alert ("Ballet was clicked and your name is Elainea");
+        if (heading.innerHTML === "Welcome to GDS Callie") {
+            alert ("Ballet was clicked and your name is Callie");
         } else {
             alert ("Ballet was clicked!");
         }
